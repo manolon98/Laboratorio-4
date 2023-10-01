@@ -1,0 +1,42 @@
+{
+	"info": {
+		"_postman_id": "4c93f332-db51-4205-8c43-e3b949007228",
+		"name": "Lab#4",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "30174791"
+	},
+	"item": [
+		{
+			"name": "http://192.168.10.7:8080/subidor.php",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "archivo",
+							"type": "file",
+							"src": "/C:/Users/CG Informatica/Desktop/CA201905_2.txt"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://192.168.10.7:8080/subidor.php",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"10",
+						"7"
+					],
+					"port": "8080",
+					"path": [
+						"subidor.php"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
